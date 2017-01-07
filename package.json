@@ -1,0 +1,30 @@
+{
+  "name": "level-idx",
+  "version": "1.0.0",
+  "description": "Another high-level API for creating secondary leveldb indexes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hypermodules/level-idx.git"
+  },
+  "keywords": [
+    "leveldb",
+    "level",
+    "index",
+    "secondary",
+    "automatic",
+    "indexing"
+  ],
+  "author": "Bret Comnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypermodules/level-idx/issues"
+  },
+  "homepage": "https://github.com/hypermodules/level-idx#readme",
+  "dependencies": {
+    "deep-access": "^0.1.1"
+  }
+}
