@@ -22,7 +22,7 @@ var Index = require('level-idx')
 var level = require('memdb')
 var sub = require('subleveldown')
 
-var db = level('./db')
+var db = level()
 var posts = sub(db, 'posts', {valueEncoding: 'json'})
 var idx = sub(db, 'idx')
 
