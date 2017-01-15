@@ -1,5 +1,5 @@
 # level-idx
-High Level leveldb indexing API using [level-auto-index](https://github.com/hypermodules/level-idx).
+High Level leveldb indexing API using [level-auto-index](https://github.com/hypermodules/level-auto-index).
 
 ```bash
 npm install level-idx
