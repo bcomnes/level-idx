@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/hypermodules/level-idx#readme",
   "dependencies": {
-    "bytewise": "^1.1.0",
     "deep-access": "^0.1.1",
+    "level-auto-index": "^1.0.2",
     "subleveldown": "^2.1.0"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "bytewise": "^1.1.0",
     "dependency-check": "^2.7.0",
     "memdb": "^1.3.1",
-    "memdown": "^1.2.4",
+    "multilevel": "^7.3.0",
     "npm-run-all": "^4.0.0",
     "snazzy": "^5.0.0",
     "standard": "^8.6.0",

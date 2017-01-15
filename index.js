@@ -9,7 +9,7 @@ function Idx (db, idb, opts) {
   if (!opts) opts = {}
   this.db = db
   this.db.methods = this.db.methods || {}
-  this.idb = sub(idb, 'idx')
+  this.idb = idb
   this.keyEncoding = opts.keyEncoding || 'utf8'
   this.keyFn = opts.keyEncoding && opts.keyEncoding.type === 'bytewise-core'
     ? keyFns.bytewise
@@ -32,7 +32,8 @@ Idx.prototype.by = function (name, props) {
       valueEncoding: this.db.options.keyEncoding,
       keyEncoding: this.keyEncoding
     }),
-    reducer)
+    reducer
+  )
 
   function reducer (value) {
     var segs = []
