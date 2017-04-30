@@ -55,4 +55,3 @@ Idx.prototype.by = function (name, props) {
   }
   return this
 }
-

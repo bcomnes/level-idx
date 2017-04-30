@@ -48,4 +48,3 @@ test('multilevel object', function (t) {
     }
   })
 })
-
