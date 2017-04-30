@@ -15,7 +15,7 @@ test('multilevel', function (t) {
     .by('Title', 'title')
     .by('Length', ['body.length'])
     .by('Author', ['author', 'title'])
-    .db
+
   var server = multilevel.server(posts)
   var client = multilevel.client(posts)
 
@@ -29,7 +29,6 @@ test('multilevel', function (t) {
 
   client.put('1337', post, function (err) {
     t.error(err)
-
     client.byTitle.get('a title', onPost)
     client.byLength.get('11', onPost)
     client.byAuthor.get('julian!a title', onPost)
@@ -40,4 +39,3 @@ test('multilevel', function (t) {
     }
   })
 })
-
