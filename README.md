@@ -1,4 +1,6 @@
 # level-idx
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/hypermodules/level-idx.svg)](https://greenkeeper.io/)
 High Level leveldb indexing API using [level-auto-index](https://github.com/hypermodules/level-auto-index).
 
 ```bash
