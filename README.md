@@ -1,6 +1,5 @@
 # level-idx
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/hypermodules/level-idx.svg)](https://greenkeeper.io/)
 High Level leveldb indexing API using [level-auto-index](https://github.com/hypermodules/level-auto-index).
 
 ```bash
@@ -11,6 +10,7 @@ npm install level-idx
 [![Build Status](https://travis-ci.org/hypermodules/level-idx.svg?branch=master)](https://travis-ci.org/hypermodules/level-idx)
 [![dependencies Status](https://david-dm.org/hypermodules/level-idx/status.svg)](https://david-dm.org/hypermodules/level-idx)
 [![devDependencies Status](https://david-dm.org/hypermodules/level-idx/dev-status.svg)](https://david-dm.org/hypermodules/level-idx?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/hypermodules/level-idx.svg)](https://greenkeeper.io/)
 
 [npm-image]: https://img.shields.io/npm/v/level-idx.svg
 [npm-url]: https://www.npmjs.com/package/level-idx
