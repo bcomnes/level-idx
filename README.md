@@ -6,12 +6,13 @@ High Level leveldb indexing API using [level-auto-index](https://github.com/hype
 npm install level-idx
 ```
 
+[![level badge][level-badge]](https://github.com/level/awesome)
 [![npm][npm-image]][npm-url]
 [![Build Status](https://travis-ci.org/hypermodules/level-idx.svg?branch=master)](https://travis-ci.org/hypermodules/level-idx)
 [![dependencies Status](https://david-dm.org/hypermodules/level-idx/status.svg)](https://david-dm.org/hypermodules/level-idx)
 [![devDependencies Status](https://david-dm.org/hypermodules/level-idx/dev-status.svg)](https://david-dm.org/hypermodules/level-idx?type=dev)
-[![Greenkeeper badge](https://badges.greenkeeper.io/hypermodules/level-idx.svg)](https://greenkeeper.io/)
 
+[level-badge]: http://leveldb.org/img/badge.svg
 [npm-image]: https://img.shields.io/npm/v/level-idx.svg
 [npm-url]: https://www.npmjs.com/package/level-idx
 
