@@ -30,7 +30,7 @@
   "dependencies": {
     "deep-access": "^0.1.1",
     "level-auto-index": "^1.0.2",
-    "subleveldown": "^2.1.0"
+    "subleveldown": "^3.0.0"
   },
   "devDependencies": {
     "@tap-format/spec": "^0.2.0",
