@@ -8,7 +8,7 @@ test('idx', function (t) {
   t.plan(7)
 
   var db = MemDB()
-  var posts = sub(db, 'posts', {valueEncoding: 'json'})
+  var posts = sub(db, 'posts', { valueEncoding: 'json' })
   var idb = sub(db, 'index')
 
   Index(posts, idb)
@@ -40,10 +40,10 @@ test('idx-bytewise', function (t) {
   t.plan(7)
 
   var db = MemDB('./db')
-  var posts = sub(db, 'posts', {keyEncoding: bytewise, valueEncoding: 'json'})
+  var posts = sub(db, 'posts', { keyEncoding: bytewise, valueEncoding: 'json' })
   var idb = sub(db, 'index')
 
-  Index(posts, idb, {keyEncoding: bytewise})
+  Index(posts, idb, { keyEncoding: bytewise })
     .by('Title', 'title')
     .by('Length', ['body.length'])
     .by('Author', ['author', 'title'])

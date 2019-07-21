@@ -8,7 +8,7 @@ test('multilevel', function (t) {
   t.plan(7)
 
   var db = MemDB()
-  var posts = sub(db, 'posts', {valueEncoding: 'json'})
+  var posts = sub(db, 'posts', { valueEncoding: 'json' })
   var idb = sub(db, 'index')
 
   Index(posts, idb)

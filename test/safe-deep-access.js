@@ -7,7 +7,7 @@ test('safe-deep-access', function (t) {
   t.plan(5)
 
   var db = MemDB()
-  var posts = sub(db, 'posts', {valueEncoding: 'json'})
+  var posts = sub(db, 'posts', { valueEncoding: 'json' })
   var idb = sub(db, 'index')
 
   Index(posts, idb)

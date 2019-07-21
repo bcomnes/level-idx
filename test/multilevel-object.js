@@ -9,7 +9,7 @@ test('multilevel object', function (t) {
   t.plan(7)
 
   var db = MemDB()
-  db.posts = sub(db, 'posts', {valueEncoding: 'json'})
+  db.posts = sub(db, 'posts', { valueEncoding: 'json' })
   var idb = sub(db, 'index')
 
   Index(db.posts, idb)
