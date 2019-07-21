@@ -1,6 +1,6 @@
 {
   "name": "level-idx",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Another high-level API for creating secondary leveldb indexes",
   "main": "index.js",
   "scripts": {
