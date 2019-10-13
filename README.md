@@ -96,4 +96,7 @@ db.methods.posts = {
 
 ## See Also
 
+- [hypermodules/level-hookdown](https://github.com/hypermodules/level-hookdown) - Simple levelup hooks implemented using instance method override of arbitrary levelups.
+- [hypermodules/level-auto-index](https://github.com/hypermodules/level-auto-index) - Automatic secondary indexing for leveldb and subleveldown leveraging `level-hookdown`.
+
 This module is a port of [juliangruber/level-sec](https://github.com/juliangruber/level-sec) that works/uses [subleveldown](http://ghub.io/subleveldown) and [level-auto-index](http://ghub.io/level-auto-index).
